@@ -17,6 +17,7 @@ import editForm from './CheckMatrix.form';
  */
 export default class CheckMatrix extends (FieldComponent as any) {
   public checks: Array<Array<any>>;
+
   constructor(component, options, data) {
     super(component, options, data);
     this.checks = [];
